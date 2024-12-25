@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <title>Slot Machine</title>
+</head>
+<body>
+    <!-- Nova imagem à direita -->
+    <img src="pp.png" alt="iPhone" class="iphone-image">
+    <img src="ppp.png" alt="Outra Imagem" class="another-image">
+
+    <div class="page-title">Sorteio iPhone</div>
+
+    <div class="slot-machine">
+        <div class="reels" id="reelsContainer">
+            <div class="reel" id="reel1"></div>
+            <div class="reel" id="reel2"></div>
+            <div class="reel" id="reel3"></div>
+            <div class="reel" id="reel4"></div>
+            <div class="reel" id="reel5"></div>
+        </div>
+        <button class="lever" onclick="spin()">Spin</button>
+        <div id="winnerInfo"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
